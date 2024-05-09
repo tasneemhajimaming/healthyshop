@@ -46,7 +46,7 @@ function App() {
   };
 
   const handleDeleteEmployee = (id) => {
-    fetch(`https://jsonplaceholder.typicode.com/posts/1/${id}`, {
+    fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
       method: 'DELETE',
     })
       .then(() => {
@@ -64,7 +64,7 @@ function App() {
   };
 
   const handleUpdateEmployee = () => {
-    fetch(`https://jsonplaceholder.typicode.com/posts/1/${editing}`, {
+    fetch(`https://jsonplaceholder.typicode.com/users/${editing}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
