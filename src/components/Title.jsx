@@ -9,6 +9,7 @@ function YourComponent() {
     { title: "Order Process", count: 12 },
     { title: "remaining", count: 20 },
     { title: "Order Today", count: 20 },
+    // { title: "All orders", count: 20 },
   ];
 
   const onMenuClick = (index) => {
