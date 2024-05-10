@@ -44,7 +44,7 @@ function Navbar() {
                 <input type="password" id="password" name="password" className="w-full px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500" />
               </div>
               <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Sign Up</button>
-              <button onClick={togglePopup} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ml-2">Close</button>
+              {/* <button onClick={togglePopup} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ml-2">Close</button> */}
             </form>
           </div>
         </div>
