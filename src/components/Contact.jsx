@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function ContactPage() {
   return (
-    <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-      <p className="text-lg mb-4">We'd love to hear from you! Contact us using the information below:</p>
+    <div className="container mx-auto py-8 bg-emerald-900">
+      <h1 className="text-3xl text-white font-bold mb-4">Contact Us</h1>
+      <p className="text-lg text-white mb-4">We'd love to hear from you! Contact us using the information below:</p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="bg-gray-100 p-6 rounded-lg">
@@ -23,18 +23,18 @@ export default function ContactPage() {
       
       <form className="mt-8">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">Name</label>
+          <label htmlFor="name" className="block text-white font-semibold mb-2">Name</label>
           <input type="text" id="name" name="name" className="w-full border-gray-300 rounded-md p-2" />
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">Email</label>
+          <label htmlFor="email" className="block text-white font-semibold mb-2">Email</label>
           <input type="email" id="email" name="email" className="w-full border-gray-300 rounded-md p-2" />
         </div>
         <div className="mb-4">
-          <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Message</label>
+          <label htmlFor="message" className="block text-white font-semibold mb-2">Message</label>
           <textarea id="message" name="message" rows="4" className="w-full border-gray-300 rounded-md p-2"></textarea>
         </div>
-        <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md">Submit</button>
+        <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white text-[20px] font-semibold py-2 px-4 rounded-md">Submit</button>
       </form>
     </div>
   );
